@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>水底世界：作品展示區</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="libraries/p5.min.js"></script>
+  <script src="libraries/p5.sound.min.js"></script>
+</head>
+<body>
+  <div id="canvas-container"></div>
+  
+  <!-- 作品顯示區 (Iframe 容器) -->
+  <div id="iframe-overlay">
+    <div id="iframe-content">
+      <button id="close-btn" onclick="closeIframe()">關閉作品</button>
+      <h2 id="project-title">作品標題</h2>
+      <iframe id="project-iframe" src="" frameborder="0"></iframe>
+    </div>
+  </div>
+
+  <script src="sketch.js"></script>
+</body>
+</html>
